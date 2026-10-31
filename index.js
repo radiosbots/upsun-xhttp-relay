@@ -2,7 +2,7 @@ const http = require('http');
 const https = require('https');
 const url = require('url');
 
-const TARGET_DOMAIN = 'https://vps.thumbayan.com:443';
+const TARGET_DOMAIN = 'http://vps.thumbayan.com:80';
 
 const STRIP_HEADERS = new Set([
   'host',
