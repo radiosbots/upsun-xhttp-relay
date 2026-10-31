@@ -1,6 +1,6 @@
 applications:
   relay:
-    type: 'nodejs:20'
+    type: 'nodejs:24'
     runtime:
       sizing_hints:
         instance_size: 'S'
